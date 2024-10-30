@@ -1,0 +1,26 @@
+.cust-cat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.cust-cat:hover {
+  transform: rotate(12deg);
+}
+
+.cust-cat img {
+  width: 100px;
+  height: 100px;
+}
+
+.cust-cat p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.header-cust{
+    font-size: 40px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.19);
+}

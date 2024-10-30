@@ -1,0 +1,58 @@
+.head{
+  background-color: rgb(49, 50, 54);
+}
+
+/* .bc-nav{
+  border-left:1px solid white ;
+} */
+
+.nav-text-size{
+  font-size: 15px;
+}
+
+.link-custom{
+  transition: .5s;
+}
+
+.link-custom:hover{
+  opacity: .6;
+}
+
+.btn-drp-custom{
+  font-size: 15px;
+  background-color: transparent;
+  color: white;
+  transition: .5s;
+  
+}
+
+.btn-drp-custom:hover{
+  opacity: .7;
+  color: white;
+}
+.btn-drp-custom:focus{
+  color: white;
+}
+
+.ever{
+  vertical-align: 22px;
+}
+
+.sabad-kharid-close{
+  vertical-align: 20px;
+}
+
+.navbar-item-link{
+transition:all .5s;
+font-size: 15px;
+}
+
+.navbar-item-link:hover{
+  transform: translateX(-15px);
+  opacity: .7;
+  }
+  
+
+  .coustm.img{
+    height: 500px;
+   }

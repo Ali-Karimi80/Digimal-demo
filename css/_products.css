@@ -1,0 +1,32 @@
+.card{
+    max-height:calc(100%) ;
+}
+
+.card-img-top{
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text{
+    font-size: 17px;
+    font-weight: 700;
+}
+.text-card{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.pish-em1{
+    background-color: rgb(224, 224, 224);
+    font-size: 30px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+.pish-em2{
+    font-size: 30px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10%;
+}

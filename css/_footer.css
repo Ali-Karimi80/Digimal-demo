@@ -1,0 +1,29 @@
+.footer{
+    background-color: rgb(49, 50, 54); 
+}
+.footer-size-text{
+    font-size: 16px;
+}
+
+.cust-footer-list h5{
+    border-bottom: 3px solid #efefef;
+    display: inline-flex;
+}
+
+.cust-footer-list ul li a{
+    margin-top: 10px !important;
+    color: #efefef;
+    display: inline-flex;
+}
+
+.footer-icon i{
+    color: rgb(203, 203, 203);
+    font-size: 25px;
+    margin-right: 22px;
+    transition: all .5s ;
+}
+
+.footer-icon i:hover{
+    color: rgb(113, 113, 206);
+    transform: scale(1.3);
+}

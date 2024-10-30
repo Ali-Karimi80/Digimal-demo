@@ -1,0 +1,147 @@
+.brdc-font {
+  font-size: 14px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: flex;
+  padding-left: var(--bs-breadcrumb-item-padding-x);
+  color: var(--bs-breadcrumb-divider-color);
+  content: var(--bs-breadcrumb-divider, ">");
+  font-size: 17px;
+  padding-right: 5px;
+}
+
+.img-main {
+  max-width: 600px;
+}
+
+.icon-main i {
+  margin: 20px 0;
+  font-size: 22px;
+}
+
+.icon-main .fa-heart:hover {
+  color: red !important;
+}
+.icon-main .fa-solid:hover {
+  color: rgb(151, 147, 147) !important;
+}
+.icon-main .fa-bell:hover {
+  color: rgb(195, 195, 0) !important;
+}
+.p-title {
+  font-size: 20px;
+}
+.main-price {
+  font-size: 20px;
+}
+.cont-black {
+  padding: 0 20px 5px 5px !important;
+}
+.lable-color-black {
+  vertical-align: -5px;
+}
+.form-check-input-black {
+  font-size: 25px;
+  border-radius: 100% !important;
+  background-color: #000000;
+}
+.form-check-input-black:checked {
+  background-color: #000000;
+  border-color: #000000;
+  display: flex;
+}
+
+.form-check-input-gray {
+  background-color: grey;
+  border-color: grey;
+  display: flex;
+}
+
+.form-check-input-blue {
+  font-size: 25px;
+  border-radius: 100% !important;
+  background-color: rgb(0, 0, 193);
+}
+.form-check-input-blue:checked {
+  background-color: rgb(0, 0, 193);
+  border-color: rgb(0, 0, 193);
+  display: flex;
+}
+.form-check-input-gray {
+  font-size: 25px;
+  border-radius: 100% !important;
+}
+
+.form-check-input-gray:checked {
+  background-color: rgb(197, 197, 197);
+  border-color: rgb(197, 197, 197);
+  display: flex;
+}
+
+.Property-product i {
+  font-size: 6px;
+  color: #767676;
+}
+.Property-product p {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.Property-product i p {
+  font-size: 15px;
+  color: #767676;
+}
+
+.Property-product ul li span {
+  font-size: 17px;
+  color: #2d2d2d;
+  font-weight: 600;
+  vertical-align: -2px;
+}
+
+.buy-product ul li {
+  background-color: #e3e3e3;
+}
+
+.title-buy p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.title-buy{
+    border-bottom:1px solid rgb(158, 158, 158) ;
+}
+
+.title-buy i {
+  font-size: 16px;
+}
+
+.title-buy div span{
+    font-size: 14px;
+}
+
+.custom-tooltip{
+    --bs-tooltip-bg: grey;
+}
+
+.shiping-product{
+    border-top:1px solid rgb(203, 203, 203) ;
+    border-bottom:4px solid rgb(203, 203, 203) ;
+}
+
+.cost-info-text{
+  text-align: justify;
+  line-height: 30px;
+  font-size: 17px;
+}
+
+.cost-info-img{
+max-width: calc(70%);
+}
+
+.position-cust{
+    position:sticky;
+    top: 50%;
+    bottom: 50%;
+}

@@ -1,0 +1,51 @@
+@import "_top_nav.css";
+@import "_banner.css";
+@import "_shipping.css";
+@import "_categories.css";
+@import "_special-offers.css";
+@import "_products.css";
+@import "_footer.css";
+@import "_login-form.css";
+@import "_product-deck.css";
+
+@font-face {
+  font-family: irann;
+  src: url("../fonts/yekan/Yekan.eot");
+  src: url("../fonts/yekan/Yekan.ttf") format("ttf"),
+    url("../fonts/yekan/Yekan.woff") format("woff");
+  font-weight: normal;
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  font-family: irann;
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1300px;
+  }
+}
+body {
+  direction: rtl;
+  background-color: #e7e7e7;
+}
+a {
+  text-decoration: none !important;
+  background-color: #fff;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+li,
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}

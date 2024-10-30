@@ -1,0 +1,21 @@
+.coustom-shipping i{
+    font-size: 19px;
+}
+.coustom-shipping p{
+    font-size: 13.5px;
+    margin: 0;
+}
+.coustom-shipping div.d-flex{
+    background-color:rgba(126, 148, 255, 0.222);
+    padding: 9px;
+    justify-content: center;
+    transition:all .5s;
+}
+.coustom-shipping div.d-flex:hover{
+    letter-spacing: .5px;
+    background-color:rgba(82, 111, 255, 0.5);
+}
+
+.cust-ads a img{
+height: calc(100%);
+}
